@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Alegreya Sans Regular'), local('AlegreyaSans-Regular'), url(https://fonts.gstatic.com/s/alegreyasans/v8/5aUz9_-1phKLFgshYDvh6Vwt3V0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Alegreya Sans Bold'), local('AlegreyaSans-Bold'), url(https://fonts.gstatic.com/s/alegreyasans/v8/5aUu9_-1phKLFgshYDvh6Vwt5eFImE0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Alegreya Sans';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Alegreya Sans Black'), local('AlegreyaSans-Black'), url(https://fonts.gstatic.com/s/alegreyasans/v8/5aUu9_-1phKLFgshYDvh6Vwt5dlKmE0.ttf) format('truetype');
+}
