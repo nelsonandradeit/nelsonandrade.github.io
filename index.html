@@ -86,6 +86,24 @@ ACCION AL CENTRO
 </article>
 
 --> 
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution="setup_tool"
+  page_id="277672452721744"
+  theme_color="#6699cc"
+  logged_in_greeting="¡Hola, cuéntame en qué puedo ayudarte! Seguramente podemos resolverlo"
+  logged_out_greeting="¡Hola, cuéntame en qué puedo ayudarte! Seguramente podemos resolverlo">
+</div>
        
 <div id="main">
 
@@ -193,21 +211,3 @@ Co-fundador de @WordboxCinema Director y empresario de cine freelance ¡la vida 
     </body>
 </html>
 
-<!-- Load Facebook SDK for JavaScript -->
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
-
-<!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution="setup_tool"
-  page_id="277672452721744"
-  theme_color="#6699cc"
-  logged_in_greeting="¡Hola, cuéntame en qué puedo ayudarte! Seguramente podemos resolverlo"
-  logged_out_greeting="¡Hola, cuéntame en qué puedo ayudarte! Seguramente podemos resolverlo">
-</div>
